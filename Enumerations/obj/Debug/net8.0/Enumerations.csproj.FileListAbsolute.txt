@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/Enumerations/bin/Debug/net8.0/Enumerations
+/home/gus/git/CSharpPlayersGuide/Enumerations/bin/Debug/net8.0/Enumerations.deps.json
+/home/gus/git/CSharpPlayersGuide/Enumerations/bin/Debug/net8.0/Enumerations.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/Enumerations/bin/Debug/net8.0/Enumerations.dll
+/home/gus/git/CSharpPlayersGuide/Enumerations/bin/Debug/net8.0/Enumerations.pdb
+/home/gus/git/CSharpPlayersGuide/Enumerations/obj/Debug/net8.0/Enumerations.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/Enumerations/obj/Debug/net8.0/Enumerations.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/Enumerations/obj/Debug/net8.0/Enumerations.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/Enumerations/obj/Debug/net8.0/Enumerations.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/Enumerations/obj/Debug/net8.0/Enumerations.dll
+/home/gus/git/CSharpPlayersGuide/Enumerations/obj/Debug/net8.0/refint/Enumerations.dll
+/home/gus/git/CSharpPlayersGuide/Enumerations/obj/Debug/net8.0/Enumerations.pdb
+/home/gus/git/CSharpPlayersGuide/Enumerations/obj/Debug/net8.0/Enumerations.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/Enumerations/obj/Debug/net8.0/ref/Enumerations.dll

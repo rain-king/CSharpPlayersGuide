@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/bin/Debug/net8.0/RoomCoordinates
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/bin/Debug/net8.0/RoomCoordinates.deps.json
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/bin/Debug/net8.0/RoomCoordinates.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/bin/Debug/net8.0/RoomCoordinates.dll
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/bin/Debug/net8.0/RoomCoordinates.pdb
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/obj/Debug/net8.0/RoomCoordinates.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/obj/Debug/net8.0/RoomCoordinates.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/obj/Debug/net8.0/RoomCoordinates.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/obj/Debug/net8.0/RoomCoordinates.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/obj/Debug/net8.0/RoomCoordinates.dll
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/obj/Debug/net8.0/refint/RoomCoordinates.dll
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/obj/Debug/net8.0/RoomCoordinates.pdb
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/obj/Debug/net8.0/RoomCoordinates.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/RoomCoordinates/obj/Debug/net8.0/ref/RoomCoordinates.dll

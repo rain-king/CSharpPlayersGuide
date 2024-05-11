@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/RobotInterface/bin/Debug/net8.0/RobotInterface
+/home/gus/git/CSharpPlayersGuide/RobotInterface/bin/Debug/net8.0/RobotInterface.deps.json
+/home/gus/git/CSharpPlayersGuide/RobotInterface/bin/Debug/net8.0/RobotInterface.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/RobotInterface/bin/Debug/net8.0/RobotInterface.dll
+/home/gus/git/CSharpPlayersGuide/RobotInterface/bin/Debug/net8.0/RobotInterface.pdb
+/home/gus/git/CSharpPlayersGuide/RobotInterface/obj/Debug/net8.0/RobotInterface.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/RobotInterface/obj/Debug/net8.0/RobotInterface.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/RobotInterface/obj/Debug/net8.0/RobotInterface.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/RobotInterface/obj/Debug/net8.0/RobotInterface.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/RobotInterface/obj/Debug/net8.0/RobotInterface.dll
+/home/gus/git/CSharpPlayersGuide/RobotInterface/obj/Debug/net8.0/refint/RobotInterface.dll
+/home/gus/git/CSharpPlayersGuide/RobotInterface/obj/Debug/net8.0/RobotInterface.pdb
+/home/gus/git/CSharpPlayersGuide/RobotInterface/obj/Debug/net8.0/RobotInterface.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/RobotInterface/obj/Debug/net8.0/ref/RobotInterface.dll

@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/OldRobot/bin/Debug/net8.0/OldRobot
+/home/gus/git/CSharpPlayersGuide/OldRobot/bin/Debug/net8.0/OldRobot.deps.json
+/home/gus/git/CSharpPlayersGuide/OldRobot/bin/Debug/net8.0/OldRobot.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/OldRobot/bin/Debug/net8.0/OldRobot.dll
+/home/gus/git/CSharpPlayersGuide/OldRobot/bin/Debug/net8.0/OldRobot.pdb
+/home/gus/git/CSharpPlayersGuide/OldRobot/obj/Debug/net8.0/OldRobot.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/OldRobot/obj/Debug/net8.0/OldRobot.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/OldRobot/obj/Debug/net8.0/OldRobot.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/OldRobot/obj/Debug/net8.0/OldRobot.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/OldRobot/obj/Debug/net8.0/OldRobot.dll
+/home/gus/git/CSharpPlayersGuide/OldRobot/obj/Debug/net8.0/refint/OldRobot.dll
+/home/gus/git/CSharpPlayersGuide/OldRobot/obj/Debug/net8.0/OldRobot.pdb
+/home/gus/git/CSharpPlayersGuide/OldRobot/obj/Debug/net8.0/OldRobot.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/OldRobot/obj/Debug/net8.0/ref/OldRobot.dll

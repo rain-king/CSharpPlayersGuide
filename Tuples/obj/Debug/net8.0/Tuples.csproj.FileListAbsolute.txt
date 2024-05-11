@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/Tuples/bin/Debug/net8.0/Tuples
+/home/gus/git/CSharpPlayersGuide/Tuples/bin/Debug/net8.0/Tuples.deps.json
+/home/gus/git/CSharpPlayersGuide/Tuples/bin/Debug/net8.0/Tuples.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/Tuples/bin/Debug/net8.0/Tuples.dll
+/home/gus/git/CSharpPlayersGuide/Tuples/bin/Debug/net8.0/Tuples.pdb
+/home/gus/git/CSharpPlayersGuide/Tuples/obj/Debug/net8.0/Tuples.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/Tuples/obj/Debug/net8.0/Tuples.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/Tuples/obj/Debug/net8.0/Tuples.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/Tuples/obj/Debug/net8.0/Tuples.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/Tuples/obj/Debug/net8.0/Tuples.dll
+/home/gus/git/CSharpPlayersGuide/Tuples/obj/Debug/net8.0/refint/Tuples.dll
+/home/gus/git/CSharpPlayersGuide/Tuples/obj/Debug/net8.0/Tuples.pdb
+/home/gus/git/CSharpPlayersGuide/Tuples/obj/Debug/net8.0/Tuples.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/Tuples/obj/Debug/net8.0/ref/Tuples.dll

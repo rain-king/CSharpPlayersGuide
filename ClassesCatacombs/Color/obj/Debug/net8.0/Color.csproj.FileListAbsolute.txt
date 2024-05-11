@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/obj/Debug/net8.0/Color.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/obj/Debug/net8.0/Color.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/obj/Debug/net8.0/Color.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/obj/Debug/net8.0/Color.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/bin/Debug/net8.0/Color
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/bin/Debug/net8.0/Color.deps.json
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/bin/Debug/net8.0/Color.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/bin/Debug/net8.0/Color.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/bin/Debug/net8.0/Color.pdb
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/obj/Debug/net8.0/Color.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/obj/Debug/net8.0/refint/Color.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/obj/Debug/net8.0/Color.pdb
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/obj/Debug/net8.0/Color.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Color/obj/Debug/net8.0/ref/Color.dll

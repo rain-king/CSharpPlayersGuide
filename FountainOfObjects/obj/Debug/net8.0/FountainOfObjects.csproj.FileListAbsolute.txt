@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/bin/Debug/net8.0/FountainOfObjects
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/bin/Debug/net8.0/FountainOfObjects.deps.json
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/bin/Debug/net8.0/FountainOfObjects.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/bin/Debug/net8.0/FountainOfObjects.dll
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/bin/Debug/net8.0/FountainOfObjects.pdb
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/obj/Debug/net8.0/FountainOfObjects.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/obj/Debug/net8.0/FountainOfObjects.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/obj/Debug/net8.0/FountainOfObjects.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/obj/Debug/net8.0/FountainOfObjects.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/obj/Debug/net8.0/FountainOfObjects.dll
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/obj/Debug/net8.0/refint/FountainOfObjects.dll
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/obj/Debug/net8.0/FountainOfObjects.pdb
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/obj/Debug/net8.0/FountainOfObjects.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/FountainOfObjects/obj/Debug/net8.0/ref/FountainOfObjects.dll

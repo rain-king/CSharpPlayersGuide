@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/Records/bin/Debug/net8.0/Records
+/home/gus/git/CSharpPlayersGuide/Records/bin/Debug/net8.0/Records.deps.json
+/home/gus/git/CSharpPlayersGuide/Records/bin/Debug/net8.0/Records.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/Records/bin/Debug/net8.0/Records.dll
+/home/gus/git/CSharpPlayersGuide/Records/bin/Debug/net8.0/Records.pdb
+/home/gus/git/CSharpPlayersGuide/Records/obj/Debug/net8.0/Records.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/Records/obj/Debug/net8.0/Records.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/Records/obj/Debug/net8.0/Records.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/Records/obj/Debug/net8.0/Records.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/Records/obj/Debug/net8.0/Records.dll
+/home/gus/git/CSharpPlayersGuide/Records/obj/Debug/net8.0/refint/Records.dll
+/home/gus/git/CSharpPlayersGuide/Records/obj/Debug/net8.0/Records.pdb
+/home/gus/git/CSharpPlayersGuide/Records/obj/Debug/net8.0/Records.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/Records/obj/Debug/net8.0/ref/Records.dll

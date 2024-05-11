@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/PackingInventory/bin/Debug/net8.0/PackingInventory
+/home/gus/git/CSharpPlayersGuide/PackingInventory/bin/Debug/net8.0/PackingInventory.deps.json
+/home/gus/git/CSharpPlayersGuide/PackingInventory/bin/Debug/net8.0/PackingInventory.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/PackingInventory/bin/Debug/net8.0/PackingInventory.dll
+/home/gus/git/CSharpPlayersGuide/PackingInventory/bin/Debug/net8.0/PackingInventory.pdb
+/home/gus/git/CSharpPlayersGuide/PackingInventory/obj/Debug/net8.0/PackingInventory.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/PackingInventory/obj/Debug/net8.0/PackingInventory.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/PackingInventory/obj/Debug/net8.0/PackingInventory.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/PackingInventory/obj/Debug/net8.0/PackingInventory.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/PackingInventory/obj/Debug/net8.0/PackingInventory.dll
+/home/gus/git/CSharpPlayersGuide/PackingInventory/obj/Debug/net8.0/refint/PackingInventory.dll
+/home/gus/git/CSharpPlayersGuide/PackingInventory/obj/Debug/net8.0/PackingInventory.pdb
+/home/gus/git/CSharpPlayersGuide/PackingInventory/obj/Debug/net8.0/PackingInventory.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/PackingInventory/obj/Debug/net8.0/ref/PackingInventory.dll

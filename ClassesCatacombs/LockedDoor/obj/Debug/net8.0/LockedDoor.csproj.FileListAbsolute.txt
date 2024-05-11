@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/bin/Debug/net8.0/LockedDoor
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/bin/Debug/net8.0/LockedDoor.deps.json
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/bin/Debug/net8.0/LockedDoor.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/bin/Debug/net8.0/LockedDoor.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/bin/Debug/net8.0/LockedDoor.pdb
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/obj/Debug/net8.0/LockedDoor.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/obj/Debug/net8.0/LockedDoor.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/obj/Debug/net8.0/LockedDoor.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/obj/Debug/net8.0/LockedDoor.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/obj/Debug/net8.0/LockedDoor.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/obj/Debug/net8.0/refint/LockedDoor.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/obj/Debug/net8.0/LockedDoor.pdb
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/obj/Debug/net8.0/LockedDoor.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/LockedDoor/obj/Debug/net8.0/ref/LockedDoor.dll

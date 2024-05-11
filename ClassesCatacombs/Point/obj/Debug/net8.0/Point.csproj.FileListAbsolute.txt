@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/bin/Debug/net8.0/Point
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/bin/Debug/net8.0/Point.deps.json
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/bin/Debug/net8.0/Point.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/bin/Debug/net8.0/Point.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/bin/Debug/net8.0/Point.pdb
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/obj/Debug/net8.0/Point.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/obj/Debug/net8.0/Point.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/obj/Debug/net8.0/Point.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/obj/Debug/net8.0/Point.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/obj/Debug/net8.0/Point.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/obj/Debug/net8.0/refint/Point.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/obj/Debug/net8.0/Point.pdb
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/obj/Debug/net8.0/Point.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Point/obj/Debug/net8.0/ref/Point.dll

@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/bin/Debug/net8.0/Card
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/bin/Debug/net8.0/Card.deps.json
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/bin/Debug/net8.0/Card.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/bin/Debug/net8.0/Card.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/bin/Debug/net8.0/Card.pdb
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/obj/Debug/net8.0/Card.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/obj/Debug/net8.0/Card.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/obj/Debug/net8.0/Card.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/obj/Debug/net8.0/Card.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/obj/Debug/net8.0/Card.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/obj/Debug/net8.0/refint/Card.dll
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/obj/Debug/net8.0/Card.pdb
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/obj/Debug/net8.0/Card.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/ClassesCatacombs/Card/obj/Debug/net8.0/ref/Card.dll

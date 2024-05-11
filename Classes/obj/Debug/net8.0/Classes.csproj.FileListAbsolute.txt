@@ -1,0 +1,14 @@
+/home/gus/git/CSharpPlayersGuide/Classes/bin/Debug/net8.0/Classes
+/home/gus/git/CSharpPlayersGuide/Classes/bin/Debug/net8.0/Classes.deps.json
+/home/gus/git/CSharpPlayersGuide/Classes/bin/Debug/net8.0/Classes.runtimeconfig.json
+/home/gus/git/CSharpPlayersGuide/Classes/bin/Debug/net8.0/Classes.dll
+/home/gus/git/CSharpPlayersGuide/Classes/bin/Debug/net8.0/Classes.pdb
+/home/gus/git/CSharpPlayersGuide/Classes/obj/Debug/net8.0/Classes.GeneratedMSBuildEditorConfig.editorconfig
+/home/gus/git/CSharpPlayersGuide/Classes/obj/Debug/net8.0/Classes.AssemblyInfoInputs.cache
+/home/gus/git/CSharpPlayersGuide/Classes/obj/Debug/net8.0/Classes.AssemblyInfo.cs
+/home/gus/git/CSharpPlayersGuide/Classes/obj/Debug/net8.0/Classes.csproj.CoreCompileInputs.cache
+/home/gus/git/CSharpPlayersGuide/Classes/obj/Debug/net8.0/Classes.dll
+/home/gus/git/CSharpPlayersGuide/Classes/obj/Debug/net8.0/refint/Classes.dll
+/home/gus/git/CSharpPlayersGuide/Classes/obj/Debug/net8.0/Classes.pdb
+/home/gus/git/CSharpPlayersGuide/Classes/obj/Debug/net8.0/Classes.genruntimeconfig.cache
+/home/gus/git/CSharpPlayersGuide/Classes/obj/Debug/net8.0/ref/Classes.dll
