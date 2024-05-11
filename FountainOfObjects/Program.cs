@@ -271,9 +271,10 @@ public class Game
     }
 
     private int Mod(int x, int y) => (x%y + y)%y;
+    private class Room(RoomType type)
+    {
+        public List<RoomType> Types {get; set;} = [type];
+    }
+    private enum RoomType {Entrance, Empty, Fountain, Pit, Maelstrom}
 }
-public class Room(RoomType type)
-{
-    public List<RoomType> Types {get; set;} = [type];
-}
-public enum RoomType {Entrance, Empty, Fountain, Pit, Maelstrom}
+
