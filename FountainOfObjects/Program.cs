@@ -32,7 +32,6 @@ public class Game
     private string _readAction = "nothing";
     private Random _random = new(0);
     private ConsoleColor _baseColor = Console.ForegroundColor;
-    public Game() : this(4) {}
     public Game(int cavernSize)
     {
         CavernSize = cavernSize;
@@ -52,7 +51,7 @@ public class Game
             Effects();
         } while (!(_gameWin || _gameLose));
         
-        if (_gameWin)
+        if (_gameWin && !_gameLose)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("You won!");
@@ -111,7 +110,10 @@ public class Game
         };
         for (int i = maelstroms; i >= 1; i--)
         {
-            ModifyRandomEmptyRoom(RoomType.Maelstrom);
+            // anywhere but entrance
+            int randomRow = (entrance[0] + _random.Next(1, CavernSize)) % CavernSize;
+            int randomColumn = (entrance[1] + _random.Next(1, CavernSize)) % CavernSize;
+            _cavern[randomRow, randomColumn].Types.Add(RoomType.Maelstrom);
         }
     }
     private void ModifyRandomEmptyRoom(RoomType type)
@@ -121,8 +123,9 @@ public class Game
         do
         {
             randomRow = _random.Next(CavernSize); randomColumn = _random.Next(CavernSize);
-        } while (_cavern[randomRow, randomColumn].Type != RoomType.Empty);
-        _cavern[randomRow, randomColumn].Type = type;
+        } while (!_cavern[randomRow, randomColumn].Types.Contains(RoomType.Empty));
+        _cavern[randomRow, randomColumn].Types.Remove(RoomType.Empty);
+        _cavern[randomRow, randomColumn].Types.Add(type);
     }
     // gets a row and column on the edge of the cavern
     private int[] GetRandomEntrance()
@@ -152,23 +155,20 @@ public class Game
     }
     private void Sense()
     {
-        switch (_cavern[_currentRow, _currentColumn].Type)
+        if (_cavern[_currentRow, _currentColumn].Types.Contains(RoomType.Entrance))
         {
-            case RoomType.Empty:
-                break;
-            case RoomType.Entrance:
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("You see light in this room coming from outside the cavern. This is the entrance.");
-                Console.ForegroundColor = _baseColor;
-                break;
-            case RoomType.Fountain:
-                Console.ForegroundColor = ConsoleColor.Blue;
-                if (!_fountainIsActive)
-                    Console.WriteLine("You hear water dripping in this room. The Fountain of Objects is here!");
-                else
-                    Console.WriteLine("You hear the rushing waters from the Fountain of Objects. It has been reactivated!");
-                Console.ForegroundColor = _baseColor;
-                break;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("You see light in this room coming from outside the cavern. This is the entrance.");
+            Console.ForegroundColor = _baseColor;
+        }
+        if (_cavern[_currentRow, _currentColumn].Types.Contains(RoomType.Fountain))
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            if (!_fountainIsActive)
+                Console.WriteLine("You hear water dripping in this room. The Fountain of Objects is here!");
+            else
+                Console.WriteLine("You hear the rushing waters from the Fountain of Objects. It has been reactivated!");
+            Console.ForegroundColor = _baseColor;
         }
         if (NeighborHas(RoomType.Pit))
         {
@@ -185,14 +185,14 @@ public class Game
     }
     private bool NeighborHas(RoomType type)
     {
-        bool neighborHas = _cavern[NorthRow(), WestColumn()].Type == type;
-        neighborHas |= _cavern[NorthRow(), _currentColumn].Type == type;
-        neighborHas |= _cavern[NorthRow(), EastColumn()].Type == type;
-        neighborHas |= _cavern[_currentRow, WestColumn()].Type == type;
-        neighborHas |= _cavern[_currentRow, EastColumn()].Type == type;
-        neighborHas |= _cavern[SouthRow(), WestColumn()].Type == type;
-        neighborHas |= _cavern[SouthRow(), _currentColumn].Type == type;
-        neighborHas |= _cavern[SouthRow(), EastColumn()].Type == type;
+        bool neighborHas = _cavern[NorthRow(), WestColumn()].Types.Contains(type);
+        neighborHas |= _cavern[NorthRow(), _currentColumn].Types.Contains(type);
+        neighborHas |= _cavern[NorthRow(), EastColumn()].Types.Contains(type);
+        neighborHas |= _cavern[_currentRow, WestColumn()].Types.Contains(type);
+        neighborHas |= _cavern[_currentRow, EastColumn()].Types.Contains(type);
+        neighborHas |= _cavern[SouthRow(), WestColumn()].Types.Contains(type);
+        neighborHas |= _cavern[SouthRow(), _currentColumn].Types.Contains(type);
+        neighborHas |= _cavern[SouthRow(), EastColumn()].Types.Contains(type);
         return neighborHas;
     }
     private void Prompt()
@@ -232,17 +232,17 @@ public class Game
     
     private void Effects()
     {
-        if (_fountainIsActive && _cavern[_currentRow, _currentColumn].Type == RoomType.Entrance)
-            _gameWin = true;
-        if (_cavern[_currentRow, _currentColumn].Type == RoomType.Maelstrom)
+        // maelstrom effect
+        if (_cavern[_currentRow, _currentColumn].Types.Contains(RoomType.Maelstrom))
         {
-            _currentRow = Mod(_currentRow - 1, CavernSize);
-            _currentColumn = Mod(_currentColumn + 2, CavernSize);
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("You've been moved by the maelstrom.");
-            Console.ForegroundColor = _baseColor;
+            MoveMaelstrom();
+            MaelstromMovesPlayer();
         }
-        if (_cavern[_currentRow, _currentColumn].Type == RoomType.Pit)
+        // win condition
+        if (_fountainIsActive && _cavern[_currentRow, _currentColumn].Types.Contains(RoomType.Entrance))
+            _gameWin = true;
+        // finish turn at pit effect
+        if (_cavern[_currentRow, _currentColumn].Types.Contains(RoomType.Pit))
         {
             _gameLose = true;
             Console.ForegroundColor = ConsoleColor.Red;
@@ -251,10 +251,29 @@ public class Game
         }
     }
 
+    private void MoveMaelstrom()
+    {
+        _cavern[_currentRow, _currentColumn].Types.Remove(RoomType.Maelstrom);
+        int newMaelstromRow = Mod(_currentRow + 1, CavernSize);
+        int newMaelstromColumn = Mod(_currentColumn - 2, CavernSize);
+        _cavern[newMaelstromRow, newMaelstromColumn].Types.Add(RoomType.Maelstrom);
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("The maelstrom has moved.");
+        Console.ForegroundColor = _baseColor;
+    }
+    private void MaelstromMovesPlayer()
+    {
+        _currentRow = Mod(_currentRow - 1, CavernSize);
+        _currentColumn = Mod(_currentColumn + 2, CavernSize);
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("You've been moved by the maelstrom.");
+        Console.ForegroundColor = _baseColor;
+    }
+
     private int Mod(int x, int y) => (x%y + y)%y;
 }
 public class Room(RoomType type)
 {
-    public RoomType Type {get; set;} = type;
+    public List<RoomType> Types {get; set;} = [type];
 }
 public enum RoomType {Entrance, Empty, Fountain, Pit, Maelstrom}
